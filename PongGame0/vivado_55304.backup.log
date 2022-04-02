@@ -1,0 +1,948 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Wed Mar 30 12:15:18 2022
+# Process ID: 55304
+# Current directory: C:/Users/JideO/Downloads/PongGame0
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11468 C:\Users\JideO\Downloads\PongGame0\lab5_1.xpr
+# Log file: C:/Users/JideO/Downloads/PongGame0/vivado.log
+# Journal file: C:/Users/JideO/Downloads/PongGame0\vivado.jou
+# Running On: TrimlessPC, OS: Windows, CPU Frequency: 2296 MHz, CPU Physical cores: 8, Host memory: 16978 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/JideO/Downloads/PongGame0/lab5_1.xpr
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-s7-25:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/boards/board_files/arty-s7-25/E.0/board.xml as part xc7s25csga324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-s7-50:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/boards/board_files/arty-s7-50/B.0/board.xml as part xc7s50csga324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-z7-10:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/boards/board_files/arty-z7-10/A.0/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-z7-20:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/boards/board_files/arty-z7-20/A.0/board.xml as part xc7z020clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:cmod-s7-25:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/boards/board_files/cmod-s7-25/B.0/board.xml as part xc7s25csga225-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:cora-z7-07s:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/boards/board_files/cora-z7-07s/B.0/board.xml as part xc7z007sclg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:cora-z7-10:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/boards/board_files/cora-z7-10/B.0/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:eclypse-z7:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/boards/board_files/eclypse-z7/A.0/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:eclypse-z7:part0:1.1 available at C:/Xilinx/Vivado/2021.2/data/boards/board_files/eclypse-z7/B.0/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Xilinx/Vivado/2021.2/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:gzu_3eg:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/boards/board_files/genesys-zu-3eg/B.0/board.xml as part xczu3eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:gzu_3eg:part0:1.1 available at C:/Xilinx/Vivado/2021.2/data/boards/board_files/genesys-zu-3eg/D.0/board.xml as part xczu3eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:gzu_5ev:part0:1.1 available at C:/Xilinx/Vivado/2021.2/data/boards/board_files/genesys-zu-5ev/C.0/board.xml as part xczu5ev-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:sword:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/boards/board_files/sword/C.0/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zedboard:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/boards/board_files/zedboard/1.3/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zybo-z7-10:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/boards/board_files/zybo-z7-10/A.0/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zybo-z7-20:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/boards/board_files/zybo-z7-20/A.0/board.xml as part xc7z020clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zybo:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/boards/board_files/zybo/B.3/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zybo:part0:2.0 available at C:/Xilinx/Vivado/2021.2/data/boards/board_files/zybo/B.4/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.0/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.1 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.1/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_es:part0:1.3 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/es/1.3/board.xml as part xcvc1902-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_es:part0:1.3 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/es/1.3/board.xml as part xcvm1802-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc702:part0:1.4 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc702/1.4/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu104:part0:1.1 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu104/1.1/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.4 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.4/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.5 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.5/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.6 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.6/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.0/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.1 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.1/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.2 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.2/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld_es:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/es/1.0/board.xml as part xczu58dr-fsvg1517-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.0/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.1 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.1/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.2 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.2/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld_es:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/es/1.0/board.xml as part xczu59dr-ffvf1760-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/1.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.2/data/ip'.
+open_project: Time (s): cpu = 00:00:39 ; elapsed = 00:00:15 . Memory (MB): peak = 1238.891 ; gain = 0.000
+update_compile_order -fileset sources_1
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/JideO/Downloads/lab5_1/lab5_1.srcs/utils_1/imports/synth_1/game_top.dcp with file C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/game_tp.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Mar 30 12:16:41 2022] Launched synth_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/runme.log
+[Wed Mar 30 12:16:41 2022] Launched impl_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2021.2.0
+  ****** Build date   : Sep 27 2021-22:44:20
+    **** Build number : 2021.2.1632779060
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:07 ; elapsed = 00:01:21 . Memory (MB): peak = 1238.891 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292ABFA4AA
+open_hw_target: Time (s): cpu = 00:00:10 ; elapsed = 00:00:50 . Memory (MB): peak = 2929.617 ; gain = 1690.727
+set_property PROGRAM.FILE {C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/game_tp.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:01 ; elapsed = 00:00:34 . Memory (MB): peak = 2953.848 ; gain = 17.781
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/game_tp.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:04 ; elapsed = 00:00:36 . Memory (MB): peak = 2968.867 ; gain = 3.820
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:03 ; elapsed = 00:00:43 . Memory (MB): peak = 2968.965 ; gain = 0.098
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/JideO/Downloads/lab5_1/lab5_1.srcs/utils_1/imports/synth_1/game_top.dcp with file C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/game_tp.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Mar 30 12:22:29 2022] Launched synth_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/runme.log
+[Wed Mar 30 12:22:29 2022] Launched impl_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/runme.log
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'game_tp'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/JideO/Downloads/PongGame0/lab5_1.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2021.2/data/xsim/xsim.ini' copied to run dir:'C:/Users/JideO/Downloads/PongGame0/lab5_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'game_tp' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/JideO/Downloads/PongGame0/lab5_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj game_tp_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/JideO/Downloads/PongGame0/lab5_1.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/JideO/Downloads/PongGame0/lab5_1.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/drawingcon.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module drawblock
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/JideO/Downloads/lab4_0/lab4/lab4.srcs/sources_1/new/vga.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga_out
+INFO: [VRFC 10-2458] undeclared symbol display_region, assumed default net type wire [C:/Users/JideO/Downloads/lab4_0/lab4/lab4.srcs/sources_1/new/vga.v:47]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/game_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module game_tp
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/JideO/Downloads/PongGame0/lab5_1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot game_tp_behav xil_defaultlib.game_tp xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot game_tp_behav xil_defaultlib.game_tp xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=49.37...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module xil_defaultlib.vga_out
+Compiling module xil_defaultlib.drawblock
+Compiling module xil_defaultlib.game_tp
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot game_tp_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 2970.766 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/JideO/Downloads/PongGame0/lab5_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "game_tp_behav -key {Behavioral:sim_1:Functional:game_tp} -tclbatch {game_tp.tcl} -view {C:/Users/JideO/Downloads/PongGame0/game_tp_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/Users/JideO/Downloads/PongGame0/game_tp_behav.wcfg
+source game_tp.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 3011.027 ; gain = 39.973
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'game_tp_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:13 ; elapsed = 00:00:26 . Memory (MB): peak = 3011.027 ; gain = 42.062
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/game_tp.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:03 ; elapsed = 00:00:17 . Memory (MB): peak = 3038.523 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:02 ; elapsed = 00:00:43 . Memory (MB): peak = 3040.039 ; gain = 1.516
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/JideO/Downloads/lab5_1/lab5_1.srcs/utils_1/imports/synth_1/game_top.dcp with file C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/game_tp.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Mar 30 12:29:46 2022] Launched synth_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/runme.log
+[Wed Mar 30 12:29:46 2022] Launched impl_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/runme.log
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/JideO/Downloads/lab5_1/lab5_1.srcs/utils_1/imports/synth_1/game_top.dcp with file C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/game_tp.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Mar 30 12:32:52 2022] Launched synth_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/runme.log
+[Wed Mar 30 12:32:52 2022] Launched impl_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/game_tp.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:03 ; elapsed = 00:00:41 . Memory (MB): peak = 3047.801 ; gain = 7.762
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:01 ; elapsed = 00:00:43 . Memory (MB): peak = 3047.801 ; gain = 0.000
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/JideO/Downloads/lab5_1/lab5_1.srcs/utils_1/imports/synth_1/game_top.dcp with file C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/game_tp.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Mar 30 12:51:59 2022] Launched synth_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/runme.log
+[Wed Mar 30 12:51:59 2022] Launched impl_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/game_tp.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:03 ; elapsed = 00:00:32 . Memory (MB): peak = 3051.230 ; gain = 3.430
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:02 ; elapsed = 00:00:43 . Memory (MB): peak = 3051.336 ; gain = 0.105
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/JideO/Downloads/lab5_1/lab5_1.srcs/utils_1/imports/synth_1/game_top.dcp with file C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/game_tp.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Mar 30 12:57:06 2022] Launched synth_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/runme.log
+[Wed Mar 30 12:57:06 2022] Launched impl_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/game_tp.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:04 ; elapsed = 00:00:31 . Memory (MB): peak = 3053.086 ; gain = 1.750
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:02 ; elapsed = 00:00:43 . Memory (MB): peak = 3053.086 ; gain = 0.000
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/JideO/Downloads/lab5_1/lab5_1.srcs/utils_1/imports/synth_1/game_top.dcp with file C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/game_tp.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Mar 30 13:02:20 2022] Launched synth_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/runme.log
+[Wed Mar 30 13:02:20 2022] Launched impl_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/game_tp.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:02 ; elapsed = 00:00:27 . Memory (MB): peak = 3053.086 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:02 ; elapsed = 00:00:43 . Memory (MB): peak = 3054.141 ; gain = 1.055
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/JideO/Downloads/lab5_1/lab5_1.srcs/utils_1/imports/synth_1/game_top.dcp with file C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/game_tp.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Mar 30 13:10:13 2022] Launched synth_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/runme.log
+[Wed Mar 30 13:10:13 2022] Launched impl_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/runme.log
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/JideO/Downloads/lab5_1/lab5_1.srcs/utils_1/imports/synth_1/game_top.dcp with file C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/game_tp.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Mar 30 13:13:12 2022] Launched synth_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/runme.log
+[Wed Mar 30 13:13:12 2022] Launched impl_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/game_tp.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:04 ; elapsed = 00:00:40 . Memory (MB): peak = 3055.066 ; gain = 0.926
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:02 ; elapsed = 00:00:43 . Memory (MB): peak = 3055.066 ; gain = 0.000
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/JideO/Downloads/lab5_1/lab5_1.srcs/utils_1/imports/synth_1/game_top.dcp with file C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/game_tp.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Mar 30 13:20:45 2022] Launched synth_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/runme.log
+[Wed Mar 30 13:20:45 2022] Launched impl_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/game_tp.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:02 ; elapsed = 00:00:43 . Memory (MB): peak = 3056.891 ; gain = 1.824
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/JideO/Downloads/lab5_1/lab5_1.srcs/utils_1/imports/synth_1/game_top.dcp with file C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/game_tp.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Mar 30 13:33:15 2022] Launched synth_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/runme.log
+[Wed Mar 30 13:33:15 2022] Launched impl_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/game_tp.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:03 ; elapsed = 00:00:23 . Memory (MB): peak = 3056.891 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:02 ; elapsed = 00:00:43 . Memory (MB): peak = 3058.531 ; gain = 1.641
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/JideO/Downloads/lab5_1/lab5_1.srcs/utils_1/imports/synth_1/game_top.dcp with file C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/game_tp.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Mar 30 13:39:13 2022] Launched synth_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/runme.log
+[Wed Mar 30 13:39:13 2022] Launched impl_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/game_tp.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 3058.531 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:01 ; elapsed = 00:00:43 . Memory (MB): peak = 3058.859 ; gain = 0.328
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/JideO/Downloads/lab5_1/lab5_1.srcs/utils_1/imports/synth_1/game_top.dcp with file C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/game_tp.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Mar 30 13:46:56 2022] Launched synth_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/runme.log
+[Wed Mar 30 13:46:56 2022] Launched impl_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/runme.log
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/JideO/Downloads/lab5_1/lab5_1.srcs/utils_1/imports/synth_1/game_top.dcp with file C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/game_tp.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Mar 30 13:53:48 2022] Launched synth_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/runme.log
+[Wed Mar 30 13:53:48 2022] Launched impl_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Mar 30 13:56:22 2022] Launched synth_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/runme.log
+[Wed Mar 30 13:56:22 2022] Launched impl_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/runme.log
+reset_run impl_1
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/JideO/Downloads/lab5_1/lab5_1.srcs/utils_1/imports/synth_1/game_top.dcp with file C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/game_tp.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Mar 30 13:59:39 2022] Launched synth_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/runme.log
+[Wed Mar 30 13:59:39 2022] Launched impl_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/game_tp.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 3058.859 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:01 ; elapsed = 00:00:43 . Memory (MB): peak = 3062.422 ; gain = 3.562
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/JideO/Downloads/lab5_1/lab5_1.srcs/utils_1/imports/synth_1/game_top.dcp with file C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/game_tp.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Mar 30 14:05:59 2022] Launched synth_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/runme.log
+[Wed Mar 30 14:05:59 2022] Launched impl_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/game_tp.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:03 ; elapsed = 00:00:40 . Memory (MB): peak = 3062.734 ; gain = 0.312
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:02 ; elapsed = 00:00:43 . Memory (MB): peak = 3062.734 ; gain = 0.000
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/JideO/Downloads/lab5_1/lab5_1.srcs/utils_1/imports/synth_1/game_top.dcp with file C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/game_tp.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Mar 30 14:25:19 2022] Launched synth_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/runme.log
+[Wed Mar 30 14:25:19 2022] Launched impl_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/game_tp.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:04 ; elapsed = 00:00:32 . Memory (MB): peak = 3063.797 ; gain = 1.062
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:02 ; elapsed = 00:00:43 . Memory (MB): peak = 3063.961 ; gain = 0.164
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/JideO/Downloads/lab5_1/lab5_1.srcs/utils_1/imports/synth_1/game_top.dcp with file C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/game_tp.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Mar 30 14:30:05 2022] Launched synth_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/runme.log
+[Wed Mar 30 14:30:05 2022] Launched impl_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/game_tp.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:02 ; elapsed = 00:00:43 . Memory (MB): peak = 3064.973 ; gain = 1.012
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/JideO/Downloads/lab5_1/lab5_1.srcs/utils_1/imports/synth_1/game_top.dcp with file C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/game_tp.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Mar 30 14:35:26 2022] Launched synth_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/runme.log
+[Wed Mar 30 14:35:26 2022] Launched impl_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/game_tp.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:02 ; elapsed = 00:00:16 . Memory (MB): peak = 3064.973 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:01 ; elapsed = 00:00:43 . Memory (MB): peak = 3065.086 ; gain = 0.113
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/JideO/Downloads/lab5_1/lab5_1.srcs/utils_1/imports/synth_1/game_top.dcp with file C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/game_tp.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Mar 30 14:50:15 2022] Launched synth_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/runme.log
+[Wed Mar 30 14:50:15 2022] Launched impl_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/game_tp.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:03 ; elapsed = 00:00:17 . Memory (MB): peak = 3065.086 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:02 ; elapsed = 00:00:43 . Memory (MB): peak = 3066.324 ; gain = 1.238
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/JideO/Downloads/lab5_1/lab5_1.srcs/utils_1/imports/synth_1/game_top.dcp with file C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/game_tp.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Mar 30 15:06:35 2022] Launched synth_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/runme.log
+[Wed Mar 30 15:06:35 2022] Launched impl_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/game_tp.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 3066.324 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:01 ; elapsed = 00:00:43 . Memory (MB): peak = 3067.043 ; gain = 0.719
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/JideO/Downloads/lab5_1/lab5_1.srcs/utils_1/imports/synth_1/game_top.dcp with file C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/game_tp.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Mar 30 15:13:19 2022] Launched synth_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/runme.log
+[Wed Mar 30 15:13:19 2022] Launched impl_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/game_tp.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:04 ; elapsed = 00:00:39 . Memory (MB): peak = 3067.242 ; gain = 0.199
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:01 ; elapsed = 00:00:43 . Memory (MB): peak = 3067.242 ; gain = 0.000
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/JideO/Downloads/lab5_1/lab5_1.srcs/utils_1/imports/synth_1/game_top.dcp with file C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/game_tp.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Mar 30 15:21:18 2022] Launched synth_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/runme.log
+[Wed Mar 30 15:21:18 2022] Launched impl_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/game_tp.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:03 ; elapsed = 00:00:21 . Memory (MB): peak = 3067.242 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:01 ; elapsed = 00:00:43 . Memory (MB): peak = 3067.742 ; gain = 0.500
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/JideO/Downloads/lab5_1/lab5_1.srcs/utils_1/imports/synth_1/game_top.dcp with file C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/game_tp.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Mar 30 15:35:04 2022] Launched synth_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/runme.log
+[Wed Mar 30 15:35:04 2022] Launched impl_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/game_tp.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:02 ; elapsed = 00:00:13 . Memory (MB): peak = 3067.742 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:02 ; elapsed = 00:00:43 . Memory (MB): peak = 3068.477 ; gain = 0.734
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/game_tp.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:04 ; elapsed = 00:00:44 . Memory (MB): peak = 3068.965 ; gain = 0.488
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:01 ; elapsed = 00:00:43 . Memory (MB): peak = 3068.965 ; gain = 0.000
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/JideO/Downloads/lab5_1/lab5_1.srcs/utils_1/imports/synth_1/game_top.dcp with file C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/game_tp.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Mar 30 15:44:10 2022] Launched synth_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/runme.log
+[Wed Mar 30 15:44:10 2022] Launched impl_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/runme.log
+reset_run impl_1
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/JideO/Downloads/lab5_1/lab5_1.srcs/utils_1/imports/synth_1/game_top.dcp with file C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/game_tp.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Mar 30 15:47:38 2022] Launched synth_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/runme.log
+[Wed Mar 30 15:47:38 2022] Launched impl_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/game_tp.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:02 ; elapsed = 00:00:17 . Memory (MB): peak = 3068.965 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:01 ; elapsed = 00:00:43 . Memory (MB): peak = 3069.281 ; gain = 0.316
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/JideO/Downloads/lab5_1/lab5_1.srcs/utils_1/imports/synth_1/game_top.dcp with file C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/game_tp.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Mar 30 16:01:08 2022] Launched synth_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/runme.log
+[Wed Mar 30 16:01:08 2022] Launched impl_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/game_tp.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:02 ; elapsed = 00:00:20 . Memory (MB): peak = 3069.281 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:02 ; elapsed = 00:00:43 . Memory (MB): peak = 3069.766 ; gain = 0.484
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/JideO/Downloads/lab5_1/lab5_1.srcs/utils_1/imports/synth_1/game_top.dcp with file C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/game_tp.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Mar 30 16:07:53 2022] Launched synth_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/runme.log
+[Wed Mar 30 16:07:53 2022] Launched impl_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/game_tp.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:01 ; elapsed = 00:00:43 . Memory (MB): peak = 3069.766 ; gain = 0.000
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/JideO/Downloads/lab5_1/lab5_1.srcs/utils_1/imports/synth_1/game_top.dcp with file C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/game_tp.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Mar 30 16:41:37 2022] Launched synth_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/runme.log
+[Wed Mar 30 16:41:37 2022] Launched impl_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'game_tp'
+boost::filesystem::remove: The process cannot access the file because it is being used by another process: "C:/Users/JideO/Downloads/PongGame0/lab5_1.sim/sim_1/behav/xsim/simulate.log"
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'game_tp'
+boost::filesystem::remove: The process cannot access the file because it is being used by another process: "C:/Users/JideO/Downloads/PongGame0/lab5_1.sim/sim_1/behav/xsim/simulate.log"
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/game_tp.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:01 ; elapsed = 00:00:43 . Memory (MB): peak = 3069.805 ; gain = 0.000
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/JideO/Downloads/lab5_1/lab5_1.srcs/utils_1/imports/synth_1/game_top.dcp with file C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/game_tp.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Mar 30 16:53:32 2022] Launched synth_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/runme.log
+[Wed Mar 30 16:53:32 2022] Launched impl_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/game_tp.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 3069.805 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:02 ; elapsed = 00:00:43 . Memory (MB): peak = 3069.805 ; gain = 0.000
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+WARNING: [Vivado 12-872] Run step 'Design Initialization' is out-of-date.
+[Wed Mar 30 17:01:19 2022] Launched impl_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/game_tp.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:03 ; elapsed = 00:00:11 . Memory (MB): peak = 3069.805 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:01 ; elapsed = 00:00:43 . Memory (MB): peak = 3069.805 ; gain = 0.000
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/JideO/Downloads/lab5_1/lab5_1.srcs/utils_1/imports/synth_1/game_top.dcp with file C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/game_tp.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Mar 30 17:06:36 2022] Launched synth_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/runme.log
+[Wed Mar 30 17:06:36 2022] Launched impl_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/game_tp.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:03 ; elapsed = 00:00:25 . Memory (MB): peak = 3069.805 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:02 ; elapsed = 00:00:43 . Memory (MB): peak = 3069.805 ; gain = 0.000
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/JideO/Downloads/lab5_1/lab5_1.srcs/utils_1/imports/synth_1/game_top.dcp with file C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/game_tp.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Mar 30 17:11:14 2022] Launched synth_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/runme.log
+[Wed Mar 30 17:11:14 2022] Launched impl_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/runme.log
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/JideO/Downloads/lab5_1/lab5_1.srcs/utils_1/imports/synth_1/game_top.dcp with file C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/game_tp.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Mar 30 17:16:22 2022] Launched synth_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/runme.log
+[Wed Mar 30 17:16:23 2022] Launched impl_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/game_tp.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:03 ; elapsed = 00:00:14 . Memory (MB): peak = 3069.805 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:01 ; elapsed = 00:00:43 . Memory (MB): peak = 3069.805 ; gain = 0.000
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/JideO/Downloads/lab5_1/lab5_1.srcs/utils_1/imports/synth_1/game_top.dcp with file C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/game_tp.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Mar 30 17:42:35 2022] Launched synth_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/runme.log
+[Wed Mar 30 17:42:35 2022] Launched impl_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/game_tp.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 3069.805 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:01 ; elapsed = 00:00:43 . Memory (MB): peak = 3069.805 ; gain = 0.000
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/JideO/Downloads/lab5_1/lab5_1.srcs/utils_1/imports/synth_1/game_top.dcp with file C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/game_tp.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Mar 30 18:44:00 2022] Launched synth_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/runme.log
+[Wed Mar 30 18:44:00 2022] Launched impl_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/game_tp.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:03 ; elapsed = 00:00:35 . Memory (MB): peak = 3069.805 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:01 ; elapsed = 00:00:43 . Memory (MB): peak = 3069.805 ; gain = 0.000
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/JideO/Downloads/lab5_1/lab5_1.srcs/utils_1/imports/synth_1/game_top.dcp with file C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/game_tp.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Mar 30 18:51:18 2022] Launched synth_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/runme.log
+[Wed Mar 30 18:51:18 2022] Launched impl_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/game_tp.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:04 ; elapsed = 00:00:39 . Memory (MB): peak = 3069.805 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:01 ; elapsed = 00:00:43 . Memory (MB): peak = 3069.805 ; gain = 0.000
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/JideO/Downloads/lab5_1/lab5_1.srcs/utils_1/imports/synth_1/game_top.dcp with file C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/game_tp.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Mar 30 19:02:35 2022] Launched synth_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/runme.log
+[Wed Mar 30 19:02:35 2022] Launched impl_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/game_tp.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 3069.805 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:01 ; elapsed = 00:00:43 . Memory (MB): peak = 3069.805 ; gain = 0.000
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/JideO/Downloads/lab5_1/lab5_1.srcs/utils_1/imports/synth_1/game_top.dcp with file C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/game_tp.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Mar 30 19:11:14 2022] Launched synth_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/runme.log
+[Wed Mar 30 19:11:14 2022] Launched impl_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/game_tp.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 3069.805 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/JideO/Downloads/lab5_1/lab5_1.srcs/utils_1/imports/synth_1/game_top.dcp with file C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/game_tp.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Mar 30 19:30:35 2022] Launched synth_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/runme.log
+[Wed Mar 30 19:30:35 2022] Launched impl_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/game_tp.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:03 ; elapsed = 00:00:35 . Memory (MB): peak = 3069.805 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:01 ; elapsed = 00:00:43 . Memory (MB): peak = 3069.805 ; gain = 0.000
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/JideO/Downloads/lab5_1/lab5_1.srcs/utils_1/imports/synth_1/game_top.dcp with file C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/game_tp.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Mar 30 19:41:43 2022] Launched synth_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/runme.log
+[Wed Mar 30 19:41:43 2022] Launched impl_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/game_tp.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:02 ; elapsed = 00:00:19 . Memory (MB): peak = 3069.805 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:02 ; elapsed = 00:00:43 . Memory (MB): peak = 3069.805 ; gain = 0.000
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/JideO/Downloads/lab5_1/lab5_1.srcs/utils_1/imports/synth_1/game_top.dcp with file C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/game_tp.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Mar 30 19:48:33 2022] Launched synth_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/runme.log
+[Wed Mar 30 19:48:33 2022] Launched impl_1...
+Run output will be captured here: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/game_tp.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:03 ; elapsed = 00:00:13 . Memory (MB): peak = 3069.805 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:01 ; elapsed = 00:00:43 . Memory (MB): peak = 3069.805 ; gain = 0.000
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/game_tp.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:03 ; elapsed = 00:00:15 . Memory (MB): peak = 3069.805 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:01 ; elapsed = 00:00:43 . Memory (MB): peak = 3069.805 ; gain = 0.000
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292ABFA4AA
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2021.2.0
+  ****** Build date   : Sep 27 2021-22:44:20
+    **** Build number : 2021.2.1632779060
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:03 ; elapsed = 00:01:32 . Memory (MB): peak = 3075.695 ; gain = 0.238
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292ABFA4AA
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210292ABFA4AA.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 31 15:52:06 2022...

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="game_tp_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="game_tp" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="999,997 ps"></ZoomStartTime>
+      <ZoomEndTime time="1,000,001 ps"></ZoomEndTime>
+      <Cursor1Time time="1,000,000 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="333"></NameColumnWidth>
+      <ValueColumnWidth column_width="162"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="21" />
+   <wvobject fp_name="/game_tp/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_tp/btn" type="array">
+      <obj_property name="ElementShortName">btn[4:0]</obj_property>
+      <obj_property name="ObjectShortName">btn[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_tp/pix_r" type="array">
+      <obj_property name="ElementShortName">pix_r[3:0]</obj_property>
+      <obj_property name="ObjectShortName">pix_r[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_tp/pix_g" type="array">
+      <obj_property name="ElementShortName">pix_g[3:0]</obj_property>
+      <obj_property name="ObjectShortName">pix_g[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_tp/pix_b" type="array">
+      <obj_property name="ElementShortName">pix_b[3:0]</obj_property>
+      <obj_property name="ObjectShortName">pix_b[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_tp/hsync" type="logic">
+      <obj_property name="ElementShortName">hsync</obj_property>
+      <obj_property name="ObjectShortName">hsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_tp/vsync" type="logic">
+      <obj_property name="ElementShortName">vsync</obj_property>
+      <obj_property name="ObjectShortName">vsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_tp/pix_clk" type="logic">
+      <obj_property name="ElementShortName">pix_clk</obj_property>
+      <obj_property name="ObjectShortName">pix_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_tp/draw_r_Sig" type="array">
+      <obj_property name="ElementShortName">draw_r_Sig[3:0]</obj_property>
+      <obj_property name="ObjectShortName">draw_r_Sig[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_tp/draw_g_Sig" type="array">
+      <obj_property name="ElementShortName">draw_g_Sig[3:0]</obj_property>
+      <obj_property name="ObjectShortName">draw_g_Sig[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_tp/draw_b_Sig" type="array">
+      <obj_property name="ElementShortName">draw_b_Sig[3:0]</obj_property>
+      <obj_property name="ObjectShortName">draw_b_Sig[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_tp/draw_r_Sig1" type="array">
+      <obj_property name="ElementShortName">draw_r_Sig1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">draw_r_Sig1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_tp/draw_g_Sig1" type="array">
+      <obj_property name="ElementShortName">draw_g_Sig1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">draw_g_Sig1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_tp/draw_b_Sig1" type="array">
+      <obj_property name="ElementShortName">draw_b_Sig1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">draw_b_Sig1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_tp/curr_x" type="array">
+      <obj_property name="ElementShortName">curr_x[10:0]</obj_property>
+      <obj_property name="ObjectShortName">curr_x[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_tp/curr_y" type="array">
+      <obj_property name="ElementShortName">curr_y[10:0]</obj_property>
+      <obj_property name="ObjectShortName">curr_y[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_tp/game_clk" type="logic">
+      <obj_property name="ElementShortName">game_clk</obj_property>
+      <obj_property name="ObjectShortName">game_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_tp/clk_div" type="array">
+      <obj_property name="ElementShortName">clk_div[20:0]</obj_property>
+      <obj_property name="ObjectShortName">clk_div[20:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_tp/blkpos_x" type="array">
+      <obj_property name="ElementShortName">blkpos_x[10:0]</obj_property>
+      <obj_property name="ObjectShortName">blkpos_x[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_tp/blkpos_y" type="array">
+      <obj_property name="ElementShortName">blkpos_y[10:0]</obj_property>
+      <obj_property name="ObjectShortName">blkpos_y[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_tp/inst_2/BallCurr_x" type="array">
+      <obj_property name="ElementShortName">BallCurr_x[10:0]</obj_property>
+      <obj_property name="ObjectShortName">BallCurr_x[10:0]</obj_property>
+   </wvobject>
+</wave_config>

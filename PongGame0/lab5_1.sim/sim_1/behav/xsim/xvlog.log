@@ -1,0 +1,11 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/JideO/Downloads/PongGame0/lab5_1.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/JideO/Downloads/PongGame0/lab5_1.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/drawingcon.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module drawblock
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/JideO/Downloads/lab4_0/lab4/lab4.srcs/sources_1/new/vga.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga_out
+INFO: [VRFC 10-2458] undeclared symbol display_region, assumed default net type wire [C:/Users/JideO/Downloads/lab4_0/lab4/lab4.srcs/sources_1/new/vga.v:47]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/game_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module game_tp

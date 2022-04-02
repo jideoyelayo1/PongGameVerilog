@@ -1,0 +1,346 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Fri Apr  1 23:34:21 2022
+# Process ID: 2192
+# Current directory: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1
+# Command line: vivado.exe -log game_tp.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source game_tp.tcl
+# Log file: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/game_tp.vds
+# Journal file: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1\vivado.jou
+# Running On: TrimlessPC, OS: Windows, CPU Frequency: 2296 MHz, CPU Physical cores: 8, Host memory: 16978 MB
+#-----------------------------------------------------------
+source game_tp.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1238.648 ; gain = 0.000
+Command: read_checkpoint -auto_incremental -incremental C:/Users/JideO/Downloads/lab5_1/lab5_1.srcs/utils_1/imports/synth_1/game_top.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/JideO/Downloads/lab5_1/lab5_1.srcs/utils_1/imports/synth_1/game_top.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top game_tp -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+WARNING: [Designutils 20-4072] Reference run did not run incremental synthesis because the design is too small; reverting to default synthesis
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 61268
+WARNING: [Synth 8-2611] redeclaration of ansi port Winner is not allowed [C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/drawingcon.v:39]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1238.648 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'game_tp' [C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/game_top.v:21]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/.Xil/Vivado-2192-TrimlessPC/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (1#1) [C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/.Xil/Vivado-2192-TrimlessPC/realtime/clk_wiz_0_stub.v:5]
+WARNING: [Synth 8-6090] variable 'blkpos_y' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/game_top.v:94]
+WARNING: [Synth 8-6090] variable 'blkpos_x' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/game_top.v:100]
+WARNING: [Synth 8-6090] variable 'blkpos_x' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/game_top.v:106]
+WARNING: [Synth 8-6090] variable 'blkpos_y' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/game_top.v:112]
+INFO: [Synth 8-6157] synthesizing module 'vga_out' [C:/Users/JideO/Downloads/lab4_0/lab4/lab4.srcs/sources_1/new/vga.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'vga_out' (2#1) [C:/Users/JideO/Downloads/lab4_0/lab4/lab4.srcs/sources_1/new/vga.v:22]
+INFO: [Synth 8-6157] synthesizing module 'drawblock' [C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/drawingcon.v:23]
+WARNING: [Synth 8-6090] variable 'moveDOWN' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/drawingcon.v:169]
+WARNING: [Synth 8-6090] variable 'moveUP' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/drawingcon.v:173]
+WARNING: [Synth 8-6090] variable 'moveDOWN' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/drawingcon.v:177]
+WARNING: [Synth 8-6090] variable 'moveUP' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/drawingcon.v:181]
+WARNING: [Synth 8-6090] variable 'BallCurr_y' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/drawingcon.v:201]
+WARNING: [Synth 8-6090] variable 'BallCurr_y' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/drawingcon.v:204]
+WARNING: [Synth 8-6090] variable 'BallCurr_x' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/drawingcon.v:207]
+WARNING: [Synth 8-6090] variable 'BallCurr_x' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/drawingcon.v:210]
+WARNING: [Synth 8-6090] variable 'BallCurr_x' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/drawingcon.v:213]
+WARNING: [Synth 8-6090] variable 'BallCurr_y' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/drawingcon.v:214]
+WARNING: [Synth 8-6090] variable 'moveUP' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/drawingcon.v:217]
+WARNING: [Synth 8-6090] variable 'moveDOWN' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/drawingcon.v:217]
+WARNING: [Synth 8-6090] variable 'moveLEFT' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/drawingcon.v:217]
+WARNING: [Synth 8-6090] variable 'moveRIGHT' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/drawingcon.v:217]
+WARNING: [Synth 8-6014] Unused sequential element CrazyCNT_reg was removed.  [C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/drawingcon.v:92]
+WARNING: [Synth 8-6014] Unused sequential element BallPrev_y_reg was removed.  [C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/drawingcon.v:196]
+WARNING: [Synth 8-6014] Unused sequential element BallPrev_x_reg was removed.  [C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/drawingcon.v:197]
+WARNING: [Synth 8-6014] Unused sequential element aSeg1_reg was removed.  [C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/drawingcon.v:263]
+WARNING: [Synth 8-6014] Unused sequential element aSeg0_reg was removed.  [C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/drawingcon.v:267]
+WARNING: [Synth 8-6014] Unused sequential element bSeg1_reg was removed.  [C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/drawingcon.v:272]
+WARNING: [Synth 8-6014] Unused sequential element bSeg0_reg was removed.  [C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/drawingcon.v:276]
+WARNING: [Synth 8-6014] Unused sequential element cSeg1_reg was removed.  [C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/drawingcon.v:281]
+WARNING: [Synth 8-6014] Unused sequential element cSeg0_reg was removed.  [C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/drawingcon.v:285]
+WARNING: [Synth 8-6014] Unused sequential element dSeg1_reg was removed.  [C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/drawingcon.v:290]
+WARNING: [Synth 8-6014] Unused sequential element dSeg0_reg was removed.  [C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/drawingcon.v:294]
+WARNING: [Synth 8-6014] Unused sequential element eSeg1_reg was removed.  [C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/drawingcon.v:299]
+WARNING: [Synth 8-6014] Unused sequential element eSeg0_reg was removed.  [C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/drawingcon.v:303]
+WARNING: [Synth 8-6014] Unused sequential element fSeg1_reg was removed.  [C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/drawingcon.v:308]
+WARNING: [Synth 8-6014] Unused sequential element fSeg0_reg was removed.  [C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/drawingcon.v:312]
+WARNING: [Synth 8-6014] Unused sequential element gSeg1_reg was removed.  [C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/drawingcon.v:317]
+WARNING: [Synth 8-6014] Unused sequential element gSeg0_reg was removed.  [C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/drawingcon.v:321]
+WARNING: [Synth 8-6014] Unused sequential element bg_b_reg was removed.  [C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/drawingcon.v:329]
+INFO: [Synth 8-6155] done synthesizing module 'drawblock' (3#1) [C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/drawingcon.v:23]
+WARNING: [Synth 8-689] width (1) of port connection 'Winner' does not match port width (3) of module 'drawblock' [C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/game_top.v:144]
+INFO: [Synth 8-6155] done synthesizing module 'game_tp' (4#1) [C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/game_top.v:21]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1238.648 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1238.648 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1238.648 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 1238.648 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/JideO/Downloads/PongGame0/lab5_1.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'inst'
+Finished Parsing XDC File [c:/Users/JideO/Downloads/PongGame0/lab5_1.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'inst'
+Parsing XDC File [C:/Users/JideO/Downloads/lab4_0/lab4/lab4.srcs/constrs_1/new/1.xdc]
+WARNING: [Vivado 12-584] No ports matched 'led1_B'. [C:/Users/JideO/Downloads/lab4_0/lab4/lab4.srcs/constrs_1/new/1.xdc:32]
+WARNING: [Vivado 12-584] No ports matched 'led2_B'. [C:/Users/JideO/Downloads/lab4_0/lab4/lab4.srcs/constrs_1/new/1.xdc:33]
+WARNING: [Vivado 12-584] No ports matched 'led1_R'. [C:/Users/JideO/Downloads/lab4_0/lab4/lab4.srcs/constrs_1/new/1.xdc:34]
+WARNING: [Vivado 12-584] No ports matched 'led2_R'. [C:/Users/JideO/Downloads/lab4_0/lab4/lab4.srcs/constrs_1/new/1.xdc:35]
+WARNING: [Vivado 12-584] No ports matched 'led1_G'. [C:/Users/JideO/Downloads/lab4_0/lab4/lab4.srcs/constrs_1/new/1.xdc:36]
+WARNING: [Vivado 12-584] No ports matched 'led2_G'. [C:/Users/JideO/Downloads/lab4_0/lab4/lab4.srcs/constrs_1/new/1.xdc:37]
+WARNING: [Vivado 12-584] No ports matched 'a'. [C:/Users/JideO/Downloads/lab4_0/lab4/lab4.srcs/constrs_1/new/1.xdc:59]
+WARNING: [Vivado 12-584] No ports matched 'b'. [C:/Users/JideO/Downloads/lab4_0/lab4/lab4.srcs/constrs_1/new/1.xdc:60]
+WARNING: [Vivado 12-584] No ports matched 'c'. [C:/Users/JideO/Downloads/lab4_0/lab4/lab4.srcs/constrs_1/new/1.xdc:61]
+WARNING: [Vivado 12-584] No ports matched 'd'. [C:/Users/JideO/Downloads/lab4_0/lab4/lab4.srcs/constrs_1/new/1.xdc:62]
+WARNING: [Vivado 12-584] No ports matched 'e'. [C:/Users/JideO/Downloads/lab4_0/lab4/lab4.srcs/constrs_1/new/1.xdc:63]
+WARNING: [Vivado 12-584] No ports matched 'f'. [C:/Users/JideO/Downloads/lab4_0/lab4/lab4.srcs/constrs_1/new/1.xdc:64]
+WARNING: [Vivado 12-584] No ports matched 'g'. [C:/Users/JideO/Downloads/lab4_0/lab4/lab4.srcs/constrs_1/new/1.xdc:65]
+WARNING: [Vivado 12-584] No ports matched 'an[0]'. [C:/Users/JideO/Downloads/lab4_0/lab4/lab4.srcs/constrs_1/new/1.xdc:69]
+WARNING: [Vivado 12-584] No ports matched 'an[1]'. [C:/Users/JideO/Downloads/lab4_0/lab4/lab4.srcs/constrs_1/new/1.xdc:70]
+WARNING: [Vivado 12-584] No ports matched 'an[2]'. [C:/Users/JideO/Downloads/lab4_0/lab4/lab4.srcs/constrs_1/new/1.xdc:71]
+WARNING: [Vivado 12-584] No ports matched 'an[3]'. [C:/Users/JideO/Downloads/lab4_0/lab4/lab4.srcs/constrs_1/new/1.xdc:72]
+WARNING: [Vivado 12-584] No ports matched 'an[4]'. [C:/Users/JideO/Downloads/lab4_0/lab4/lab4.srcs/constrs_1/new/1.xdc:73]
+WARNING: [Vivado 12-584] No ports matched 'an[5]'. [C:/Users/JideO/Downloads/lab4_0/lab4/lab4.srcs/constrs_1/new/1.xdc:74]
+WARNING: [Vivado 12-584] No ports matched 'an[6]'. [C:/Users/JideO/Downloads/lab4_0/lab4/lab4.srcs/constrs_1/new/1.xdc:75]
+WARNING: [Vivado 12-584] No ports matched 'an[7]'. [C:/Users/JideO/Downloads/lab4_0/lab4/lab4.srcs/constrs_1/new/1.xdc:76]
+Finished Parsing XDC File [C:/Users/JideO/Downloads/lab4_0/lab4/lab4.srcs/constrs_1/new/1.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/Users/JideO/Downloads/lab4_0/lab4/lab4.srcs/constrs_1/new/1.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/game_tp_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/JideO/Downloads/lab4_0/lab4/lab4.srcs/constrs_1/new/1.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/game_tp_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/game_tp_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1271.340 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1271.340 ; gain = 0.000
+WARNING: [Designutils 20-4072] Reference run did not run incremental synthesis because the design is too small; reverting to default synthesis
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1271.340 ; gain = 32.691
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1271.340 ; gain = 32.691
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk. (constraint file  c:/Users/JideO/Downloads/PongGame0/lab5_1.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk. (constraint file  c:/Users/JideO/Downloads/PongGame0/lab5_1.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 4).
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1271.340 ; gain = 32.691
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1271.340 ; gain = 32.691
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 2     
+	   3 Input   32 Bit       Adders := 7     
+	   2 Input   21 Bit       Adders := 2     
+	   2 Input   12 Bit       Adders := 1     
+	   3 Input   12 Bit       Adders := 7     
+	   2 Input   11 Bit       Adders := 11    
+	   2 Input   10 Bit       Adders := 1     
+	   2 Input    6 Bit       Adders := 3     
+	   2 Input    3 Bit       Adders := 1     
++---Registers : 
+	               21 Bit    Registers := 2     
+	               11 Bit    Registers := 8     
+	               10 Bit    Registers := 1     
+	                6 Bit    Registers := 2     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 4     
+	                1 Bit    Registers := 4     
++---Multipliers : 
+	               5x27  Multipliers := 1     
++---Muxes : 
+	   2 Input   21 Bit        Muxes := 2     
+	   2 Input   11 Bit        Muxes := 21    
+	   2 Input    4 Bit        Muxes := 8     
+	   2 Input    3 Bit        Muxes := 2     
+	   2 Input    2 Bit        Muxes := 26    
+	   7 Input    2 Bit        Muxes := 4     
+	   8 Input    2 Bit        Muxes := 1     
+	   3 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+DSP Report: Generating DSP CrazySpinCNT2, operation Mode is: (A:0x196e6b)*B.
+DSP Report: operator CrazySpinCNT2 is absorbed into DSP CrazySpinCNT2.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 1271.340 ; gain = 32.691
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|drawblock   | (A:0x196e6b)*B | 21     | 6      | -      | -      | 27     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:38 ; elapsed = 00:00:38 . Memory (MB): peak = 1282.941 ; gain = 44.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:42 ; elapsed = 00:00:42 . Memory (MB): peak = 1385.484 ; gain = 146.836
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 1397.000 ; gain = 158.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1397.000 ; gain = 158.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1397.000 ; gain = 158.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1397.000 ; gain = 158.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1397.000 ; gain = 158.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1397.000 ; gain = 158.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1397.000 ; gain = 158.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |clk_wiz_0     |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |clk_wiz |     1|
+|2     |BUFG    |     1|
+|3     |CARRY4  |   122|
+|4     |DSP48E1 |     1|
+|5     |LUT1    |    72|
+|6     |LUT2    |   259|
+|7     |LUT3    |   100|
+|8     |LUT4    |   201|
+|9     |LUT5    |   100|
+|10    |LUT6    |   152|
+|11    |MUXF7   |     1|
+|12    |FDRE    |   183|
+|13    |FDSE    |    12|
+|14    |IBUF    |     5|
+|15    |OBUF    |    14|
++------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1397.000 ; gain = 158.352
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:38 ; elapsed = 00:00:46 . Memory (MB): peak = 1397.000 ; gain = 125.660
+Synthesis Optimization Complete : Time (s): cpu = 00:00:49 ; elapsed = 00:00:49 . Memory (MB): peak = 1397.000 ; gain = 158.352
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.024 . Memory (MB): peak = 1404.781 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 124 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1413.434 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: fc532770
+INFO: [Common 17-83] Releasing license: Synthesis
+28 Infos, 63 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:53 ; elapsed = 00:00:55 . Memory (MB): peak = 1413.434 ; gain = 174.785
+INFO: [Common 17-1381] The checkpoint 'C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/synth_1/game_tp.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file game_tp_utilization_synth.rpt -pb game_tp_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Apr  1 23:35:29 2022...

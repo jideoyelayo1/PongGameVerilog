@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Thu Mar 24 16:24:29 2022
+# Process ID: 23876
+# Current directory: C:/Users/JideO/Downloads/lab5_1/lab5_1.runs/clk_wiz_0_synth_1
+# Command line: vivado.exe -log clk_wiz_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source clk_wiz_0.tcl
+# Log file: C:/Users/JideO/Downloads/lab5_1/lab5_1.runs/clk_wiz_0_synth_1/clk_wiz_0.vds
+# Journal file: C:/Users/JideO/Downloads/lab5_1/lab5_1.runs/clk_wiz_0_synth_1\vivado.jou
+# Running On: TrimlessPC, OS: Windows, CPU Frequency: 2296 MHz, CPU Physical cores: 8, Host memory: 16978 MB
+#-----------------------------------------------------------
+source clk_wiz_0.tcl -notrace

@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Fri Apr  1 23:35:37 2022
+# Process ID: 61572
+# Current directory: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1
+# Command line: vivado.exe -log game_tp.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source game_tp.tcl -notrace
+# Log file: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1/game_tp.vdi
+# Journal file: C:/Users/JideO/Downloads/PongGame0/lab5_1.runs/impl_1\vivado.jou
+# Running On: TrimlessPC, OS: Windows, CPU Frequency: 2296 MHz, CPU Physical cores: 8, Host memory: 16978 MB
+#-----------------------------------------------------------
+source game_tp.tcl -notrace

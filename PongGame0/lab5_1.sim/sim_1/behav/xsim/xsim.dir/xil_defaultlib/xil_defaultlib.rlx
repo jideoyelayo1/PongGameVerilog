@@ -1,0 +1,10 @@
+0.7
+2020.2
+Oct 19 2021
+03:16:22
+C:/Users/JideO/Downloads/PongGame0/lab5_1.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v,1648139062,verilog,,C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/drawingcon.v,,clk_wiz_0,,,../../../../lab5_1.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/JideO/Downloads/PongGame0/lab5_1.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,1648139061,verilog,,C:/Users/JideO/Downloads/PongGame0/lab5_1.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v,,clk_wiz_0_clk_wiz,,,../../../../lab5_1.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/JideO/Downloads/PongGame0/lab5_1.sim/sim_1/behav/xsim/glbl.v,1634335545,verilog,,,,glbl,,,,,,,,
+C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/drawingcon.v,1648639344,verilog,,C:/Users/JideO/Downloads/lab4_0/lab4/lab4.srcs/sources_1/new/vga.v,,drawblock,,,../../../../lab5_1.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/game_top.v,1648632745,verilog,,,,game_tp,,,../../../../lab5_1.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/JideO/Downloads/lab4_0/lab4/lab4.srcs/sources_1/new/vga.v,1648489386,verilog,,C:/Users/JideO/Downloads/PongGame0/lab5_1.srcs/sources_1/new/game_top.v,,vga_out,,,../../../../lab5_1.gen/sources_1/ip/clk_wiz_0,,,,,
