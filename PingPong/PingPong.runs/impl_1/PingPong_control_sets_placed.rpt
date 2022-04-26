@@ -1,0 +1,95 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.2 (win64) Build 3367213 Tue Oct 19 02:48:09 MDT 2021
+| Date         : Tue Apr 26 16:33:41 2022
+| Host         : TrimlessPC running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file PingPong_control_sets_placed.rpt
+| Design       : PingPong
+| Device       : xc7a100t
+-------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    17 |
+|    Minimum number of control sets                        |    17 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    61 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    17 |
+| >= 0 to < 4        |     2 |
+| >= 4 to < 6        |     3 |
+| >= 6 to < 8        |     2 |
+| >= 8 to < 10       |     1 |
+| >= 10 to < 12      |     4 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     5 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              32 |           20 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             115 |           38 |
+| Yes          | No                    | No                     |              11 |            5 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              37 |           16 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++--------------------------+-----------------+-----------------------------+------------------+----------------+--------------+
+|       Clock Signal       |  Enable Signal  |       Set/Reset Signal      | Slice Load Count | Bel Load Count | Bels / Slice |
++--------------------------+-----------------+-----------------------------+------------------+----------------+--------------+
+|  clk_IBUF                |                 |                             |                2 |              2 |         1.00 |
+|  inst/inst/clk_out1      | inst_1/line_end | inst_1/curr_y_r             |                1 |              2 |         2.00 |
+|  moveLEFT_reg[0]_i_2_n_0 |                 |                             |                3 |              4 |         1.33 |
+|  inst/inst/clk_out1      |                 |                             |                4 |              4 |         1.00 |
+|  inst/inst/clk_out1      | inst_2/game_clk | inst_2/MovTemp              |                3 |              4 |         1.33 |
+|  moveLEFT_reg[0]_i_2_n_0 | inst_2/RScore   | reset                       |                2 |              6 |         3.00 |
+|  moveLEFT_reg[0]_i_2_n_0 | inst_2/LScore   | reset                       |                3 |              6 |         2.00 |
+|  inst/inst/clk_out1      | inst_1/line_end | inst_1/vcount               |                3 |              8 |         2.67 |
+|  moveLEFT_reg[0]_i_2_n_0 | inst_2/OppPosY  | inst_2/OppPosY[10]_i_1_n_0  |                4 |             11 |         2.75 |
+|  inst/inst/clk_out1      |                 | inst_1/curr_x_r[10]_i_1_n_0 |                6 |             11 |         1.83 |
+|  inst/inst/clk_out1      |                 | inst_1/line_end             |                4 |             11 |         2.75 |
+|  inst/inst/clk_out1      | inst_1/line_end |                             |                5 |             11 |         2.20 |
+|  clk_IBUF                |                 | game_clk                    |                5 |             20 |         4.00 |
+|  inst/inst/clk_out1      |                 | inst_2/game_clk             |                5 |             20 |         4.00 |
+|  game_clk_reg_n_0        |                 |                             |               11 |             22 |         2.00 |
+|  moveLEFT_reg[0]_i_2_n_0 |                 | reset                       |               10 |             22 |         2.20 |
+|  inst/inst/clk_out1      |                 | inst_2/clear                |                8 |             31 |         3.88 |
++--------------------------+-----------------+-----------------------------+------------------+----------------+--------------+
+
+

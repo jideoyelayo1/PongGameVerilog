@@ -1,0 +1,15 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.2 (win64) Build 3367213 Tue Oct 19 02:48:09 MDT 2021
+| Date         : Tue Apr 26 16:34:27 2022
+| Host         : TrimlessPC running 64-bit major release  (build 9200)
+| Command      : report_bus_skew -warn_on_violation -file PingPong_bus_skew_routed.rpt -pb PingPong_bus_skew_routed.pb -rpx PingPong_bus_skew_routed.rpx
+| Design       : PingPong
+| Device       : 7a100t-csg324
+| Speed File   : -1  PRODUCTION 1.23 2018-06-13
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Bus Skew Report
+
+No bus skew constraints
+
