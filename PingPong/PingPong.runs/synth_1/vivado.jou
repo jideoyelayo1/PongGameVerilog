@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Tue Apr 26 16:31:18 2022
+# Process ID: 32148
+# Current directory: C:/Users/JideO/Downloads/PongGameVerilog/PingPong/PingPong.runs/synth_1
+# Command line: vivado.exe -log PingPong.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source PingPong.tcl
+# Log file: C:/Users/JideO/Downloads/PongGameVerilog/PingPong/PingPong.runs/synth_1/PingPong.vds
+# Journal file: C:/Users/JideO/Downloads/PongGameVerilog/PingPong/PingPong.runs/synth_1\vivado.jou
+# Running On: TrimlessPC, OS: Windows, CPU Frequency: 2296 MHz, CPU Physical cores: 8, Host memory: 16978 MB
+#-----------------------------------------------------------
+source PingPong.tcl -notrace
