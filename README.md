@@ -1,5 +1,7 @@
 <h1>PongGame</h1>
 
+<img src="https://github.com/jideoyelayo1/PongGameVerilog/assets/41443216/47684e12-effd-4365-999e-48db838cd69c" alt="Image" style="width: 600px; height: 500px;">
+
 PongGame is a classic arcade game developed using Verilog with Vivado 2021.2 for Nexys 4DDR. The game is a single player Ping Pong game that displays the score on the VGA out and uses buttons to move around.
 
 <h2>Gameplay</h2>
